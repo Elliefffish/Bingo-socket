@@ -1,0 +1,9 @@
+# execute command
+## role :server/client
+python3 socket.py [role] ip -p [port]
+ex:python3 socket.py server localhost -p 11053
+ex:python3 socket.py client localhost -p 11053
+
+## 'socket.py' use the module 'bingo.py'
+## So, 'socket.py' and 'bingo.py' should be the same folder.
+#pip install colorama
